@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+
+}
+
+body{
+    font-family: "Archivo", sans-serif;
+    background:#5CA78B
+}
+
+/*Navigation*/
+
+.nav-container{
+    height: 50px;
+    background: #1A1A28;
+    mix-blend-mode: normal;
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin:0 auto
+}
+
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    height:72px;
+
+}
+
+ul{
+    display:flex;
+    align-items:center;
+}
+
+.logo{
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+
+
+}
+
+li{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 15px;
+    align-items: center;
+
+    /* White */
+
+    color: #FFFFFF;
+
+}
+
+.nav-items li a{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    /* or 27px */
+    text-decoration:none;
+    display: flex;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 20%;
+
+}
+thumbnail2 {
+    position: relative;
+}
+
+.caption2 {
+    position: absolute;
+    top: 130%;
+}
+.challenge-content{
+    font-family: Archivo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 33px;
+
+    align-items: center;
+    letter-spacing: -0.017em;
+    color: #003322;
+}

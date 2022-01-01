@@ -1,0 +1,8 @@
+1. image crop and show
+2. footer images overlap
+3. diff navbar for phone
+4. HEADER CONTENT ACCORDING to screen size
+5. Slider contents 
+6. Video in homepage
+7. French toggle
+8. Pdf  download report
